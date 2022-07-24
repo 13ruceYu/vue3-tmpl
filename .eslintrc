@@ -1,21 +1,22 @@
 {
   "env": {
     "browser": true,
-    "es2021": true,
-    "node": true
+    "es2021": true
   },
   "extends": [
-    "plugin:vue/vue3-essential",
+    "plugin:vue/vue3-recommended",
     "airbnb-base",
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 12,
+    "ecmaVersion": 2021,
     "parser": "@typescript-eslint/parser",
     "sourceType": "module"
   },
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
-    "vue/multi-word-component-names": "off"
+    "vue/multi-word-component-names": "off",
+    "import/no-unresolved": "off",
+    "import/extensions": "off"
   }
 }
