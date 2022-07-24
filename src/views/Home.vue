@@ -1,16 +1,16 @@
 <script lang="ts">
-import { defineComponent } from "vue";
-import { useUserStore } from "@/store/user/user";
+  import { defineComponent } from 'vue'
+  import { useUserStore } from '@/store/user/user'
 
-export default defineComponent({
-  setup() {
-    const user = useUserStore();
+  export default defineComponent({
+    setup() {
+      const user = useUserStore()
 
-    return {
-      user,
-    };
-  },
-});
+      return {
+        user
+      }
+    }
+  })
 </script>
 
 <template>
@@ -23,9 +23,9 @@ export default defineComponent({
 </template>
 
 <style lang="less" scoped>
-.wrap {
-  h2 {
-    background-color: tomato;
+  .wrap {
+    h2 {
+      background-color: tomato;
+    }
   }
-}
 </style>

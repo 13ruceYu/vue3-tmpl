@@ -1,8 +1,8 @@
 <script setup lang="ts">
-// TypeScript enabled
-import { ref } from 'vue'
+  // TypeScript enabled
+  import { ref } from 'vue'
 
-const str = ref('Lazy')
+  const str = ref('Lazy')
 </script>
 
 <template>

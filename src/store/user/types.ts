@@ -1,4 +1,3 @@
-
 interface UserState {
   username: string
   age: number

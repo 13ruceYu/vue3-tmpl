@@ -8,7 +8,7 @@ export const useUserStore = defineStore({
     age: 25
   }),
   getters: {
-    doubleAge: state => state.age * 2
+    doubleAge: (state) => state.age * 2
   },
   actions: {
     agePlus() {

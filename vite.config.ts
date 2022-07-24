@@ -13,9 +13,9 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       less: {
-        javascriptEnabled: true,
+        javascriptEnabled: true
       }
-    },
+    }
   },
   base: './', // 设置打包路径
   server: {

@@ -1,8 +1,8 @@
 <script setup lang="ts">
-// TypeScript enabled
-import { ref } from 'vue'
+  // TypeScript enabled
+  import { ref } from 'vue'
 
-const count = ref(1)
+  const count = ref(1)
 </script>
 
 <template>
