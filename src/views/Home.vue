@@ -14,18 +14,10 @@
 </script>
 
 <template>
-  <!-- type checking and auto-completion enabled -->
-  <h1>Home</h1>
-  <div class="wrap">
-    <h2>{{ user.username }}</h2>
+  <div class="text-center">
+    <h2 class="c-pink">yo, {{ user.username }}</h2>
   </div>
-  <a-button type="primary">Primary Button</a-button>
+  <p text-center c-cyan>
+    <em text-sm opacity-50>use unocss</em>
+  </p>
 </template>
-
-<style lang="less" scoped>
-  .wrap {
-    h2 {
-      background-color: tomato;
-    }
-  }
-</style>
