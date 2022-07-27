@@ -12,7 +12,7 @@ export const useUserStore = defineStore({
   },
   actions: {
     agePlus() {
-      this.age++
+      this.age += 1
     }
   }
 })

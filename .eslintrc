@@ -16,8 +16,25 @@
   "plugins": ["vue", "@typescript-eslint"],
   "rules": {
     "vue/multi-word-component-names": "off",
-    "import/no-unresolved": "off",
-    "import/extensions": "off",
-    "import/no-extraneous-dependencies": "off"
+    "import/prefer-default-export": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "alias": {
+        "map": [["@", "./src"]],
+        "extensions": [".js", ".jsx", ".ts"]
+      }
+    }
   }
 }
