@@ -18,6 +18,7 @@
     <h2 class="c-pink">yo, {{ user.username }}</h2>
   </div>
   <p text-center c-cyan>
-    <em text-sm opacity-50>use unocss</em>
+    <em text-sm opacity-50>use unocss</em><br />
+    <a-button type="primary">ant design button</a-button>
   </p>
 </template>

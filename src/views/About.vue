@@ -1,9 +1,4 @@
-<script setup lang="ts">
-  // TypeScript enabled
-  import { ref } from 'vue'
-
-  const count = ref(1)
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <!-- type checking and auto-completion enabled -->
