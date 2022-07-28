@@ -14,7 +14,7 @@
 </script>
 
 <template>
-  <div class="text-center" mb-1>
+  <div class="text-center" mb-1 mt-10>
     <div class="c-orange text-sm">hola, {{ user.username }}</div>
   </div>
   <div text-center>
